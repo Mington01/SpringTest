@@ -63,7 +63,7 @@ public class Test02_HttpMessageConverter {
 	
 	@ResponseBody
 	@RequestMapping("/2")
-	public ArrayList mapResponse2() {
+	public ArrayList Response() {
 		
 		ArrayList contentList = new ArrayList();
 		
@@ -91,7 +91,7 @@ public class Test02_HttpMessageConverter {
 	
 	@ResponseBody
 	@RequestMapping("/3")
-	public ResponseEntity<Content> entityResponse() {
+	public ResponseEntity<Content> entity() {
 		
 		Content content = new Content();
 		content.setTitle("안녕하세요 가입인사 드립니다.");
